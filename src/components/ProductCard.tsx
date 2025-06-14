@@ -75,7 +75,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, currentUser, onRevie
             className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
           />
           <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-semibold text-slate-700">
-            ${product.price}
+            ₹{product.price}
           </div>
           <div className="absolute top-4 left-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full px-3 py-1 text-sm font-medium">
             {product.category}
